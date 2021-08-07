@@ -18,11 +18,6 @@ end
 
 class RailsMentor < Mentor
   
-  # インスタンスを初期化するための、特別なメソッド
-  def initialize(name)
-    super(name)
-  end
-
   # インスタンスが持つメソッド（処理）
   def job
     puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
