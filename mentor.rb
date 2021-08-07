@@ -20,7 +20,7 @@ class RailsMentor < Mentor
   
   # インスタンスを初期化するための、特別なメソッド
   def initialize(name)
-    super (name)
+    super(name)
   end
 
   # インスタンスが持つメソッド（処理）
